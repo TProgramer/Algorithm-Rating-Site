@@ -33,6 +33,7 @@ const RoadmapAnimation: React.FC<RoadmapAnimationProps> = ({
             orb.draw(ctx);
             ctx.textAlign = "center";
             ctx.font = "30px normal";
+            ctx.lineWidth = 2;
             ctx.strokeText(orb.name, orb.centerX, orb.centerY);
         }
     }
@@ -46,7 +47,6 @@ const RoadmapAnimation: React.FC<RoadmapAnimationProps> = ({
         console.log(curX, " / ", curY);
         for(let lay of RoadmapLayout) {
 
-            // if(curX >= lay.startX && curX <= lay.startX + diameter && curY >= lay.startY && curY <= lay.startY + diameter) {
             if(Math.sqrt(Math.pow(lay.startX - curX + radius, 2) + Math.pow(lay.startY - curY + radius, 2)) <= radius) {
 
                 setModalAttribute(lay.category, lay.content, lay.image);

@@ -31,7 +31,7 @@ export const RoadmapLayout: RoadmapProperty[] = [
         content: "Dikstra 알고리즘은 어쩌구 저쩌구",
         image: "/TempRoadmap.png",
         startX: 600,
-        startY: 150,
+        startY: 1500,
         colors: ['rbga(0, 255, 0, 0.13)', 'rgba(0, 0, 255, 0.13)', 'rgba(0, 255, 255, 0.13)'],
     },
 ];

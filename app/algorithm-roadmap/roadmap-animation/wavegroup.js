@@ -39,6 +39,7 @@ export class WaveGroup{
 
     ctx.beginPath();
     ctx.strokeStyle = '#A0A0A0';
+    ctx.lineWidth = 5;
     ctx.arc(this.centerX, this.centerY, this.stageSize / 2, 0, Math.PI * 2, false);
     ctx.stroke();
     ctx.closePath();
