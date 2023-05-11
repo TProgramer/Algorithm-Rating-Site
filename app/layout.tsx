@@ -10,7 +10,7 @@ export const metadata = {
   title: "Algorithm Rating Site | ARS",
   description:
     "알고리즘 레이팅 사이트",
-  metadataBase: new URL("https://Algorithm-Rating-Site.dev"),
+  metadataBase: new URL("https://algorithm-rating-site.vercel.app/"),
   themeColor: "#FFF",
 };
 
